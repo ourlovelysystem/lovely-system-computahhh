@@ -1,0 +1,2618 @@
+{
+  "schema": "lovely-system-witness-trace-v1",
+  "test": "four-client-36-shot-quadrant-drift",
+  "generatedAt": "2026-08-23T22:26:38.850Z",
+  "continuousOriginal": true,
+  "clients": [
+    {
+      "name": "ALPHA",
+      "id": "witness-alpha"
+    },
+    {
+      "name": "BRAVO",
+      "id": "witness-bravo"
+    },
+    {
+      "name": "CHARLIE",
+      "id": "witness-charlie"
+    },
+    {
+      "name": "DELTA",
+      "id": "witness-delta"
+    }
+  ],
+  "events": [
+    {
+      "type": "recording_started",
+      "wallTime": "2026-08-23T22:26:09.463Z",
+      "monotonicMs": 14199,
+      "mimeType": "video/webm;codecs=vp9"
+    },
+    {
+      "type": "replace_target_sent",
+      "wallTime": "2026-08-23T22:26:10.471Z",
+      "monotonicMs": 15206,
+      "client": "ALPHA",
+      "previousGeneration": 6
+    },
+    {
+      "type": "target_replaced_received",
+      "wallTime": "2026-08-23T22:26:11.196Z",
+      "monotonicMs": 15932,
+      "client": "DELTA",
+      "generation": 7,
+      "sequence": 0,
+      "shots": 0
+    },
+    {
+      "type": "target_replaced_received",
+      "wallTime": "2026-08-23T22:26:11.278Z",
+      "monotonicMs": 16014,
+      "client": "ALPHA",
+      "generation": 7,
+      "sequence": 0,
+      "shots": 0
+    },
+    {
+      "type": "target_replaced_received",
+      "wallTime": "2026-08-23T22:26:11.278Z",
+      "monotonicMs": 16014,
+      "client": "BRAVO",
+      "generation": 7,
+      "sequence": 0,
+      "shots": 0
+    },
+    {
+      "type": "target_replaced_received",
+      "wallTime": "2026-08-23T22:26:11.374Z",
+      "monotonicMs": 16110,
+      "client": "CHARLIE",
+      "generation": 7,
+      "sequence": 0,
+      "shots": 0
+    },
+    {
+      "type": "zero_state_verified",
+      "wallTime": "2026-08-23T22:26:11.388Z",
+      "monotonicMs": 16123,
+      "generation": 7
+    },
+    {
+      "type": "volley_started",
+      "wallTime": "2026-08-23T22:26:12.888Z",
+      "monotonicMs": 17624,
+      "client": "ALPHA"
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:12.888Z",
+      "monotonicMs": 17624,
+      "client": "ALPHA",
+      "shotId": "5de4065d-22c1-4a1c-8af3-ccca0e63bc10",
+      "aimX": 0.1,
+      "aimY": 0.12,
+      "impact": {
+        "id": "5de4065d-22c1-4a1c-8af3-ccca0e63bc10",
+        "shooterId": "witness-alpha",
+        "band": "direct",
+        "x": 0.10318463001865498,
+        "y": 0.10805151708335739,
+        "error": 6.700424120993375,
+        "radius": 0.025608334883662917
+      }
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:13.109Z",
+      "monotonicMs": 17845,
+      "client": "ALPHA",
+      "shotId": "6bc9e2c1-b947-4eee-a6ca-12ca6c33771c",
+      "aimX": 0.2,
+      "aimY": 0.2,
+      "impact": {
+        "id": "6bc9e2c1-b947-4eee-a6ca-12ca6c33771c",
+        "shooterId": "witness-alpha",
+        "band": "mild",
+        "x": 0.17148927480437526,
+        "y": 0.1864048313990618,
+        "error": 28.19850389558269,
+        "radius": 0.025165492455609003
+      }
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:13.329Z",
+      "monotonicMs": 18065,
+      "client": "ALPHA",
+      "shotId": "baf5c78a-f2cf-4fdd-8cde-2adc8637b899",
+      "aimX": 0.32,
+      "aimY": 0.31,
+      "impact": {
+        "id": "baf5c78a-f2cf-4fdd-8cde-2adc8637b899",
+        "shooterId": "witness-alpha",
+        "band": "severe",
+        "x": 0.4193929319849897,
+        "y": 0.3519000544809136,
+        "error": 97.6810864220788,
+        "radius": 0.032166905809388475
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:13.396Z",
+      "monotonicMs": 18132,
+      "client": "BRAVO",
+      "shotId": "5de4065d-22c1-4a1c-8af3-ccca0e63bc10",
+      "shooterId": "witness-alpha",
+      "sequence": 1,
+      "shots": 1
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:13.415Z",
+      "monotonicMs": 18151,
+      "client": "CHARLIE",
+      "shotId": "5de4065d-22c1-4a1c-8af3-ccca0e63bc10",
+      "shooterId": "witness-alpha",
+      "sequence": 1,
+      "shots": 1
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:13.550Z",
+      "monotonicMs": 18286,
+      "client": "ALPHA",
+      "shotId": "a73898f3-d29e-46c3-8ac4-c6597c80f776",
+      "aimX": 0.41,
+      "aimY": 0.4,
+      "impact": {
+        "id": "a73898f3-d29e-46c3-8ac4-c6597c80f776",
+        "shooterId": "witness-alpha",
+        "band": "direct",
+        "x": 0.4135541697518125,
+        "y": 0.40544607824203655,
+        "error": 4.362003686044773,
+        "radius": 0.02604120232022862
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:13.593Z",
+      "monotonicMs": 18329,
+      "client": "ALPHA",
+      "shotId": "5de4065d-22c1-4a1c-8af3-ccca0e63bc10",
+      "shooterId": "witness-alpha",
+      "sequence": 1,
+      "shots": 1
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:13.681Z",
+      "monotonicMs": 18417,
+      "client": "DELTA",
+      "shotId": "5de4065d-22c1-4a1c-8af3-ccca0e63bc10",
+      "shooterId": "witness-alpha",
+      "sequence": 1,
+      "shots": 1
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:13.771Z",
+      "monotonicMs": 18506,
+      "client": "ALPHA",
+      "shotId": "115dbba9-bebc-41c7-be15-0aae17f044e1",
+      "aimX": 0.47,
+      "aimY": 0.47,
+      "impact": {
+        "id": "115dbba9-bebc-41c7-be15-0aae17f044e1",
+        "shooterId": "witness-alpha",
+        "band": "mild",
+        "x": 0.4662880586001473,
+        "y": 0.5358666357303346,
+        "error": 33.06006086160778,
+        "radius": 0.025930340737331588
+      }
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:13.991Z",
+      "monotonicMs": 18727,
+      "client": "ALPHA",
+      "shotId": "ddce1f45-fe84-4cd7-a8cb-4c89c509b56f",
+      "aimX": 0.4,
+      "aimY": 0.38,
+      "impact": {
+        "id": "ddce1f45-fe84-4cd7-a8cb-4c89c509b56f",
+        "shooterId": "witness-alpha",
+        "band": "severe",
+        "x": 0.48824378317455314,
+        "y": 0.35217136102361013,
+        "error": 85.84463768912246,
+        "radius": 0.0308644397611245
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.004Z",
+      "monotonicMs": 18740,
+      "client": "CHARLIE",
+      "shotId": "a73898f3-d29e-46c3-8ac4-c6597c80f776",
+      "shooterId": "witness-alpha",
+      "sequence": 4,
+      "shots": 4
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.023Z",
+      "monotonicMs": 18758,
+      "client": "BRAVO",
+      "shotId": "a73898f3-d29e-46c3-8ac4-c6597c80f776",
+      "shooterId": "witness-alpha",
+      "sequence": 4,
+      "shots": 4
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:14.115Z",
+      "monotonicMs": 18851,
+      "client": "BRAVO",
+      "incomingGeneration": 7,
+      "incomingSequence": 2,
+      "currentGeneration": 7,
+      "currentSequence": 4
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.115Z",
+      "monotonicMs": 18851,
+      "client": "BRAVO",
+      "shotId": "6bc9e2c1-b947-4eee-a6ca-12ca6c33771c",
+      "shooterId": "witness-alpha",
+      "sequence": 4,
+      "shots": 4
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:14.212Z",
+      "monotonicMs": 18947,
+      "client": "ALPHA",
+      "shotId": "ddd54dc1-d323-4dd6-8029-3a01505796c1",
+      "aimX": 0.3,
+      "aimY": 0.28,
+      "impact": {
+        "id": "ddd54dc1-d323-4dd6-8029-3a01505796c1",
+        "shooterId": "witness-alpha",
+        "band": "direct",
+        "x": 0.2948294019839969,
+        "y": 0.28483372107511196,
+        "error": 5.518779451402224,
+        "radius": 0.03338235390575193
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.236Z",
+      "monotonicMs": 18971,
+      "client": "ALPHA",
+      "shotId": "6bc9e2c1-b947-4eee-a6ca-12ca6c33771c",
+      "shooterId": "witness-alpha",
+      "sequence": 2,
+      "shots": 2
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.295Z",
+      "monotonicMs": 19031,
+      "client": "DELTA",
+      "shotId": "baf5c78a-f2cf-4fdd-8cde-2adc8637b899",
+      "shooterId": "witness-alpha",
+      "sequence": 3,
+      "shots": 3
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:14.309Z",
+      "monotonicMs": 19045,
+      "client": "BRAVO",
+      "incomingGeneration": 7,
+      "incomingSequence": 3,
+      "currentGeneration": 7,
+      "currentSequence": 4
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.309Z",
+      "monotonicMs": 19045,
+      "client": "BRAVO",
+      "shotId": "baf5c78a-f2cf-4fdd-8cde-2adc8637b899",
+      "shooterId": "witness-alpha",
+      "sequence": 4,
+      "shots": 4
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.328Z",
+      "monotonicMs": 19064,
+      "client": "ALPHA",
+      "shotId": "baf5c78a-f2cf-4fdd-8cde-2adc8637b899",
+      "shooterId": "witness-alpha",
+      "sequence": 3,
+      "shots": 3
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.343Z",
+      "monotonicMs": 19079,
+      "client": "ALPHA",
+      "shotId": "a73898f3-d29e-46c3-8ac4-c6597c80f776",
+      "shooterId": "witness-alpha",
+      "sequence": 4,
+      "shots": 4
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.348Z",
+      "monotonicMs": 19084,
+      "client": "DELTA",
+      "shotId": "a73898f3-d29e-46c3-8ac4-c6597c80f776",
+      "shooterId": "witness-alpha",
+      "sequence": 4,
+      "shots": 4
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:14.363Z",
+      "monotonicMs": 19098,
+      "client": "DELTA",
+      "incomingGeneration": 7,
+      "incomingSequence": 2,
+      "currentGeneration": 7,
+      "currentSequence": 4
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.363Z",
+      "monotonicMs": 19098,
+      "client": "DELTA",
+      "shotId": "6bc9e2c1-b947-4eee-a6ca-12ca6c33771c",
+      "shooterId": "witness-alpha",
+      "sequence": 4,
+      "shots": 4
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:14.414Z",
+      "monotonicMs": 19150,
+      "client": "CHARLIE",
+      "incomingGeneration": 7,
+      "incomingSequence": 3,
+      "currentGeneration": 7,
+      "currentSequence": 4
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.414Z",
+      "monotonicMs": 19150,
+      "client": "CHARLIE",
+      "shotId": "baf5c78a-f2cf-4fdd-8cde-2adc8637b899",
+      "shooterId": "witness-alpha",
+      "sequence": 4,
+      "shots": 4
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:14.422Z",
+      "monotonicMs": 19158,
+      "client": "CHARLIE",
+      "incomingGeneration": 7,
+      "incomingSequence": 2,
+      "currentGeneration": 7,
+      "currentSequence": 4
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.422Z",
+      "monotonicMs": 19158,
+      "client": "CHARLIE",
+      "shotId": "6bc9e2c1-b947-4eee-a6ca-12ca6c33771c",
+      "shooterId": "witness-alpha",
+      "sequence": 4,
+      "shots": 4
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:14.432Z",
+      "monotonicMs": 19168,
+      "client": "ALPHA",
+      "shotId": "45aae3c5-c108-4293-aa6a-c3af0eed05d4",
+      "aimX": 0.19,
+      "aimY": 0.18,
+      "impact": {
+        "id": "45aae3c5-c108-4293-aa6a-c3af0eed05d4",
+        "shooterId": "witness-alpha",
+        "band": "mild",
+        "x": 0.22550832321105405,
+        "y": 0.18135036322141787,
+        "error": 34.09464958109311,
+        "radius": 0.03077996780421983
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.619Z",
+      "monotonicMs": 19355,
+      "client": "BRAVO",
+      "shotId": "115dbba9-bebc-41c7-be15-0aae17f044e1",
+      "shooterId": "witness-alpha",
+      "sequence": 5,
+      "shots": 5
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.647Z",
+      "monotonicMs": 19383,
+      "client": "DELTA",
+      "shotId": "115dbba9-bebc-41c7-be15-0aae17f044e1",
+      "shooterId": "witness-alpha",
+      "sequence": 5,
+      "shots": 5
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:14.653Z",
+      "monotonicMs": 19389,
+      "client": "ALPHA",
+      "shotId": "fd11ac91-2fa5-4933-ad0a-c8977ef12a25",
+      "aimX": 0.08,
+      "aimY": 0.1,
+      "impact": {
+        "id": "fd11ac91-2fa5-4933-ad0a-c8977ef12a25",
+        "shooterId": "witness-alpha",
+        "band": "severe",
+        "x": 0.026625066710864044,
+        "y": 0.10011094818514314,
+        "error": 51.2399658666327,
+        "radius": 0.03382030925304334
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.684Z",
+      "monotonicMs": 19420,
+      "client": "ALPHA",
+      "shotId": "115dbba9-bebc-41c7-be15-0aae17f044e1",
+      "shooterId": "witness-alpha",
+      "sequence": 5,
+      "shots": 5
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.754Z",
+      "monotonicMs": 19490,
+      "client": "ALPHA",
+      "shotId": "ddce1f45-fe84-4cd7-a8cb-4c89c509b56f",
+      "shooterId": "witness-alpha",
+      "sequence": 6,
+      "shots": 6
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.860Z",
+      "monotonicMs": 19596,
+      "client": "CHARLIE",
+      "shotId": "115dbba9-bebc-41c7-be15-0aae17f044e1",
+      "shooterId": "witness-alpha",
+      "sequence": 5,
+      "shots": 5
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.933Z",
+      "monotonicMs": 19668,
+      "client": "DELTA",
+      "shotId": "ddce1f45-fe84-4cd7-a8cb-4c89c509b56f",
+      "shooterId": "witness-alpha",
+      "sequence": 6,
+      "shots": 6
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:14.933Z",
+      "monotonicMs": 19669,
+      "client": "BRAVO",
+      "shotId": "ddce1f45-fe84-4cd7-a8cb-4c89c509b56f",
+      "shooterId": "witness-alpha",
+      "sequence": 6,
+      "shots": 6
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.055Z",
+      "monotonicMs": 19791,
+      "client": "ALPHA",
+      "shotId": "45aae3c5-c108-4293-aa6a-c3af0eed05d4",
+      "shooterId": "witness-alpha",
+      "sequence": 8,
+      "shots": 8
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.077Z",
+      "monotonicMs": 19813,
+      "client": "BRAVO",
+      "shotId": "45aae3c5-c108-4293-aa6a-c3af0eed05d4",
+      "shooterId": "witness-alpha",
+      "sequence": 8,
+      "shots": 8
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.093Z",
+      "monotonicMs": 19829,
+      "client": "CHARLIE",
+      "shotId": "ddce1f45-fe84-4cd7-a8cb-4c89c509b56f",
+      "shooterId": "witness-alpha",
+      "sequence": 6,
+      "shots": 6
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.188Z",
+      "monotonicMs": 19924,
+      "client": "CHARLIE",
+      "shotId": "ddd54dc1-d323-4dd6-8029-3a01505796c1",
+      "shooterId": "witness-alpha",
+      "sequence": 7,
+      "shots": 7
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.242Z",
+      "monotonicMs": 19978,
+      "client": "DELTA",
+      "shotId": "45aae3c5-c108-4293-aa6a-c3af0eed05d4",
+      "shooterId": "witness-alpha",
+      "sequence": 8,
+      "shots": 8
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.265Z",
+      "monotonicMs": 20001,
+      "client": "ALPHA",
+      "shotId": "fd11ac91-2fa5-4933-ad0a-c8977ef12a25",
+      "shooterId": "witness-alpha",
+      "sequence": 9,
+      "shots": 9
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:15.330Z",
+      "monotonicMs": 20066,
+      "client": "BRAVO",
+      "incomingGeneration": 7,
+      "incomingSequence": 7,
+      "currentGeneration": 7,
+      "currentSequence": 8
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.330Z",
+      "monotonicMs": 20066,
+      "client": "BRAVO",
+      "shotId": "ddd54dc1-d323-4dd6-8029-3a01505796c1",
+      "shooterId": "witness-alpha",
+      "sequence": 8,
+      "shots": 8
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.396Z",
+      "monotonicMs": 20132,
+      "client": "DELTA",
+      "shotId": "fd11ac91-2fa5-4933-ad0a-c8977ef12a25",
+      "shooterId": "witness-alpha",
+      "sequence": 9,
+      "shots": 9
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:15.505Z",
+      "monotonicMs": 20241,
+      "client": "DELTA",
+      "incomingGeneration": 7,
+      "incomingSequence": 7,
+      "currentGeneration": 7,
+      "currentSequence": 9
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.505Z",
+      "monotonicMs": 20241,
+      "client": "DELTA",
+      "shotId": "ddd54dc1-d323-4dd6-8029-3a01505796c1",
+      "shooterId": "witness-alpha",
+      "sequence": 9,
+      "shots": 9
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.525Z",
+      "monotonicMs": 20260,
+      "client": "BRAVO",
+      "shotId": "fd11ac91-2fa5-4933-ad0a-c8977ef12a25",
+      "shooterId": "witness-alpha",
+      "sequence": 9,
+      "shots": 9
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.561Z",
+      "monotonicMs": 20297,
+      "client": "CHARLIE",
+      "shotId": "45aae3c5-c108-4293-aa6a-c3af0eed05d4",
+      "shooterId": "witness-alpha",
+      "sequence": 8,
+      "shots": 8
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:15.588Z",
+      "monotonicMs": 20324,
+      "client": "ALPHA",
+      "incomingGeneration": 7,
+      "incomingSequence": 7,
+      "currentGeneration": 7,
+      "currentSequence": 9
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.588Z",
+      "monotonicMs": 20324,
+      "client": "ALPHA",
+      "shotId": "ddd54dc1-d323-4dd6-8029-3a01505796c1",
+      "shooterId": "witness-alpha",
+      "sequence": 9,
+      "shots": 9
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:15.682Z",
+      "monotonicMs": 20418,
+      "client": "CHARLIE",
+      "shotId": "fd11ac91-2fa5-4933-ad0a-c8977ef12a25",
+      "shooterId": "witness-alpha",
+      "sequence": 9,
+      "shots": 9
+    },
+    {
+      "type": "volley_converged",
+      "wallTime": "2026-08-23T22:26:15.701Z",
+      "monotonicMs": 20437,
+      "client": "ALPHA",
+      "shots": 9,
+      "sequence": 9
+    },
+    {
+      "type": "volley_started",
+      "wallTime": "2026-08-23T22:26:19.702Z",
+      "monotonicMs": 24437,
+      "client": "BRAVO"
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:19.702Z",
+      "monotonicMs": 24438,
+      "client": "BRAVO",
+      "shotId": "4c4fa07d-3bea-4681-9f4e-f1e5f79f1100",
+      "aimX": 0.9,
+      "aimY": 0.12,
+      "impact": {
+        "id": "4c4fa07d-3bea-4681-9f4e-f1e5f79f1100",
+        "shooterId": "witness-bravo",
+        "band": "direct",
+        "x": 0.8971447489716636,
+        "y": 0.11710045413109382,
+        "error": 3.099475487259042,
+        "radius": 0.03278272907981862
+      }
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:19.922Z",
+      "monotonicMs": 24658,
+      "client": "BRAVO",
+      "shotId": "aa82b8ea-60b2-450a-acf4-02f2a272222e",
+      "aimX": 0.8,
+      "aimY": 0.2,
+      "impact": {
+        "id": "aa82b8ea-60b2-450a-acf4-02f2a272222e",
+        "shooterId": "witness-bravo",
+        "band": "mild",
+        "x": 0.796324416689837,
+        "y": 0.1128178318661602,
+        "error": 43.646766385791125,
+        "radius": 0.029335824503219667
+      }
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:20.143Z",
+      "monotonicMs": 24879,
+      "client": "BRAVO",
+      "shotId": "58deb93d-78a3-4fdb-b05c-75e38acc26e4",
+      "aimX": 0.68,
+      "aimY": 0.31,
+      "impact": {
+        "id": "58deb93d-78a3-4fdb-b05c-75e38acc26e4",
+        "shooterId": "witness-bravo",
+        "band": "severe",
+        "x": 0.6214543438392678,
+        "y": 0.1882492868534071,
+        "error": 82.76394820238056,
+        "radius": 0.033280163659893044
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:20.181Z",
+      "monotonicMs": 24917,
+      "client": "ALPHA",
+      "shotId": "4c4fa07d-3bea-4681-9f4e-f1e5f79f1100",
+      "shooterId": "witness-bravo",
+      "sequence": 10,
+      "shots": 10
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:20.363Z",
+      "monotonicMs": 25099,
+      "client": "BRAVO",
+      "shotId": "f79346ff-5f57-4910-aea7-eb1797c65ec0",
+      "aimX": 0.59,
+      "aimY": 0.4,
+      "impact": {
+        "id": "f79346ff-5f57-4910-aea7-eb1797c65ec0",
+        "shooterId": "witness-bravo",
+        "band": "direct",
+        "x": 0.5951741368521091,
+        "y": 0.40125693096047454,
+        "error": 5.006613832018047,
+        "radius": 0.029314378068774457
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:20.382Z",
+      "monotonicMs": 25118,
+      "client": "BRAVO",
+      "shotId": "4c4fa07d-3bea-4681-9f4e-f1e5f79f1100",
+      "shooterId": "witness-bravo",
+      "sequence": 10,
+      "shots": 10
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:20.461Z",
+      "monotonicMs": 25197,
+      "client": "CHARLIE",
+      "shotId": "4c4fa07d-3bea-4681-9f4e-f1e5f79f1100",
+      "shooterId": "witness-bravo",
+      "sequence": 10,
+      "shots": 10
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:20.473Z",
+      "monotonicMs": 25209,
+      "client": "DELTA",
+      "shotId": "4c4fa07d-3bea-4681-9f4e-f1e5f79f1100",
+      "shooterId": "witness-bravo",
+      "sequence": 10,
+      "shots": 10
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:20.583Z",
+      "monotonicMs": 25319,
+      "client": "BRAVO",
+      "shotId": "c135787c-cfb7-42fa-a5ba-9e7c4e181e20",
+      "aimX": 0.53,
+      "aimY": 0.47,
+      "impact": {
+        "id": "c135787c-cfb7-42fa-a5ba-9e7c4e181e20",
+        "shooterId": "witness-bravo",
+        "band": "mild",
+        "x": 0.4943827593135651,
+        "y": 0.5073468005231845,
+        "error": 38.941405168850906,
+        "radius": 0.027251541635733356
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:20.669Z",
+      "monotonicMs": 25405,
+      "client": "BRAVO",
+      "shotId": "aa82b8ea-60b2-450a-acf4-02f2a272222e",
+      "shooterId": "witness-bravo",
+      "sequence": 11,
+      "shots": 11
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:20.683Z",
+      "monotonicMs": 25418,
+      "client": "ALPHA",
+      "shotId": "aa82b8ea-60b2-450a-acf4-02f2a272222e",
+      "shooterId": "witness-bravo",
+      "sequence": 11,
+      "shots": 11
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:20.734Z",
+      "monotonicMs": 25470,
+      "client": "DELTA",
+      "shotId": "aa82b8ea-60b2-450a-acf4-02f2a272222e",
+      "shooterId": "witness-bravo",
+      "sequence": 11,
+      "shots": 11
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:20.804Z",
+      "monotonicMs": 25540,
+      "client": "BRAVO",
+      "shotId": "5014c8b5-e423-4e85-8815-4357235e49bd",
+      "aimX": 0.6,
+      "aimY": 0.38,
+      "impact": {
+        "id": "5014c8b5-e423-4e85-8815-4357235e49bd",
+        "shooterId": "witness-bravo",
+        "band": "severe",
+        "x": 0.5632571174105138,
+        "y": 0.4758458905236159,
+        "error": 59.427500070676615,
+        "radius": 0.030911227589960604
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:20.910Z",
+      "monotonicMs": 25646,
+      "client": "CHARLIE",
+      "shotId": "aa82b8ea-60b2-450a-acf4-02f2a272222e",
+      "shooterId": "witness-bravo",
+      "sequence": 11,
+      "shots": 11
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.017Z",
+      "monotonicMs": 25753,
+      "client": "BRAVO",
+      "shotId": "58deb93d-78a3-4fdb-b05c-75e38acc26e4",
+      "shooterId": "witness-bravo",
+      "sequence": 12,
+      "shots": 12
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:21.024Z",
+      "monotonicMs": 25760,
+      "client": "BRAVO",
+      "shotId": "d28a9ee0-c082-4aea-86ff-8de1f96a7341",
+      "aimX": 0.7,
+      "aimY": 0.28,
+      "impact": {
+        "id": "d28a9ee0-c082-4aea-86ff-8de1f96a7341",
+        "shooterId": "witness-bravo",
+        "band": "direct",
+        "x": 0.7002412283523912,
+        "y": 0.2902340281628356,
+        "error": 5.112028114815985,
+        "radius": 0.029453007782215577
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.060Z",
+      "monotonicMs": 25796,
+      "client": "DELTA",
+      "shotId": "f79346ff-5f57-4910-aea7-eb1797c65ec0",
+      "shooterId": "witness-bravo",
+      "sequence": 13,
+      "shots": 13
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.085Z",
+      "monotonicMs": 25821,
+      "client": "BRAVO",
+      "shotId": "c135787c-cfb7-42fa-a5ba-9e7c4e181e20",
+      "shooterId": "witness-bravo",
+      "sequence": 14,
+      "shots": 14
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.112Z",
+      "monotonicMs": 25848,
+      "client": "ALPHA",
+      "shotId": "5014c8b5-e423-4e85-8815-4357235e49bd",
+      "shooterId": "witness-bravo",
+      "sequence": 15,
+      "shots": 15
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.175Z",
+      "monotonicMs": 25911,
+      "client": "DELTA",
+      "shotId": "5014c8b5-e423-4e85-8815-4357235e49bd",
+      "shooterId": "witness-bravo",
+      "sequence": 15,
+      "shots": 15
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:21.231Z",
+      "monotonicMs": 25967,
+      "client": "ALPHA",
+      "incomingGeneration": 7,
+      "incomingSequence": 13,
+      "currentGeneration": 7,
+      "currentSequence": 15
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.231Z",
+      "monotonicMs": 25967,
+      "client": "ALPHA",
+      "shotId": "f79346ff-5f57-4910-aea7-eb1797c65ec0",
+      "shooterId": "witness-bravo",
+      "sequence": 15,
+      "shots": 15
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:21.233Z",
+      "monotonicMs": 25969,
+      "client": "BRAVO",
+      "incomingGeneration": 7,
+      "incomingSequence": 13,
+      "currentGeneration": 7,
+      "currentSequence": 14
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.233Z",
+      "monotonicMs": 25969,
+      "client": "BRAVO",
+      "shotId": "f79346ff-5f57-4910-aea7-eb1797c65ec0",
+      "shooterId": "witness-bravo",
+      "sequence": 14,
+      "shots": 14
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:21.245Z",
+      "monotonicMs": 25981,
+      "client": "BRAVO",
+      "shotId": "c6af32dd-1da7-4d71-b866-fb3ddf7aea1e",
+      "aimX": 0.81,
+      "aimY": 0.18,
+      "impact": {
+        "id": "c6af32dd-1da7-4d71-b866-fb3ddf7aea1e",
+        "shooterId": "witness-bravo",
+        "band": "mild",
+        "x": 0.7786762662610246,
+        "y": 0.19301336093842744,
+        "error": 30.763936456634838,
+        "radius": 0.028722133977452814
+      }
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:21.259Z",
+      "monotonicMs": 25995,
+      "client": "ALPHA",
+      "incomingGeneration": 7,
+      "incomingSequence": 12,
+      "currentGeneration": 7,
+      "currentSequence": 15
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.259Z",
+      "monotonicMs": 25995,
+      "client": "ALPHA",
+      "shotId": "58deb93d-78a3-4fdb-b05c-75e38acc26e4",
+      "shooterId": "witness-bravo",
+      "sequence": 15,
+      "shots": 15
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:21.281Z",
+      "monotonicMs": 26017,
+      "client": "ALPHA",
+      "incomingGeneration": 7,
+      "incomingSequence": 14,
+      "currentGeneration": 7,
+      "currentSequence": 15
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.281Z",
+      "monotonicMs": 26017,
+      "client": "ALPHA",
+      "shotId": "c135787c-cfb7-42fa-a5ba-9e7c4e181e20",
+      "shooterId": "witness-bravo",
+      "sequence": 15,
+      "shots": 15
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.335Z",
+      "monotonicMs": 26070,
+      "client": "CHARLIE",
+      "shotId": "f79346ff-5f57-4910-aea7-eb1797c65ec0",
+      "shooterId": "witness-bravo",
+      "sequence": 13,
+      "shots": 13
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:21.374Z",
+      "monotonicMs": 26110,
+      "client": "CHARLIE",
+      "incomingGeneration": 7,
+      "incomingSequence": 12,
+      "currentGeneration": 7,
+      "currentSequence": 13
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.374Z",
+      "monotonicMs": 26110,
+      "client": "CHARLIE",
+      "shotId": "58deb93d-78a3-4fdb-b05c-75e38acc26e4",
+      "shooterId": "witness-bravo",
+      "sequence": 13,
+      "shots": 13
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.423Z",
+      "monotonicMs": 26159,
+      "client": "CHARLIE",
+      "shotId": "c135787c-cfb7-42fa-a5ba-9e7c4e181e20",
+      "shooterId": "witness-bravo",
+      "sequence": 14,
+      "shots": 14
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:21.441Z",
+      "monotonicMs": 26177,
+      "client": "DELTA",
+      "incomingGeneration": 7,
+      "incomingSequence": 12,
+      "currentGeneration": 7,
+      "currentSequence": 15
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.442Z",
+      "monotonicMs": 26177,
+      "client": "DELTA",
+      "shotId": "58deb93d-78a3-4fdb-b05c-75e38acc26e4",
+      "shooterId": "witness-bravo",
+      "sequence": 15,
+      "shots": 15
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.462Z",
+      "monotonicMs": 26198,
+      "client": "BRAVO",
+      "shotId": "5014c8b5-e423-4e85-8815-4357235e49bd",
+      "shooterId": "witness-bravo",
+      "sequence": 15,
+      "shots": 15
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:21.465Z",
+      "monotonicMs": 26201,
+      "client": "BRAVO",
+      "shotId": "7c035c0d-812b-4bde-a79c-7b6a5accd323",
+      "aimX": 0.92,
+      "aimY": 0.1,
+      "impact": {
+        "id": "7c035c0d-812b-4bde-a79c-7b6a5accd323",
+        "shooterId": "witness-bravo",
+        "band": "severe",
+        "x": 0.8908181858723891,
+        "y": 0.19884027785693703,
+        "error": 56.72217414327679,
+        "radius": 0.02444040427275001
+      }
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:21.508Z",
+      "monotonicMs": 26244,
+      "client": "DELTA",
+      "incomingGeneration": 7,
+      "incomingSequence": 14,
+      "currentGeneration": 7,
+      "currentSequence": 15
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.508Z",
+      "monotonicMs": 26244,
+      "client": "DELTA",
+      "shotId": "c135787c-cfb7-42fa-a5ba-9e7c4e181e20",
+      "shooterId": "witness-bravo",
+      "sequence": 15,
+      "shots": 15
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.529Z",
+      "monotonicMs": 26265,
+      "client": "ALPHA",
+      "shotId": "c6af32dd-1da7-4d71-b866-fb3ddf7aea1e",
+      "shooterId": "witness-bravo",
+      "sequence": 17,
+      "shots": 17
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.586Z",
+      "monotonicMs": 26322,
+      "client": "BRAVO",
+      "shotId": "d28a9ee0-c082-4aea-86ff-8de1f96a7341",
+      "shooterId": "witness-bravo",
+      "sequence": 16,
+      "shots": 16
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.640Z",
+      "monotonicMs": 26376,
+      "client": "CHARLIE",
+      "shotId": "5014c8b5-e423-4e85-8815-4357235e49bd",
+      "shooterId": "witness-bravo",
+      "sequence": 15,
+      "shots": 15
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.647Z",
+      "monotonicMs": 26383,
+      "client": "BRAVO",
+      "shotId": "c6af32dd-1da7-4d71-b866-fb3ddf7aea1e",
+      "shooterId": "witness-bravo",
+      "sequence": 17,
+      "shots": 17
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:21.668Z",
+      "monotonicMs": 26404,
+      "client": "ALPHA",
+      "incomingGeneration": 7,
+      "incomingSequence": 16,
+      "currentGeneration": 7,
+      "currentSequence": 17
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.668Z",
+      "monotonicMs": 26404,
+      "client": "ALPHA",
+      "shotId": "d28a9ee0-c082-4aea-86ff-8de1f96a7341",
+      "shooterId": "witness-bravo",
+      "sequence": 17,
+      "shots": 17
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.708Z",
+      "monotonicMs": 26444,
+      "client": "CHARLIE",
+      "shotId": "c6af32dd-1da7-4d71-b866-fb3ddf7aea1e",
+      "shooterId": "witness-bravo",
+      "sequence": 17,
+      "shots": 17
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:21.953Z",
+      "monotonicMs": 26689,
+      "client": "DELTA",
+      "shotId": "d28a9ee0-c082-4aea-86ff-8de1f96a7341",
+      "shooterId": "witness-bravo",
+      "sequence": 16,
+      "shots": 16
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:22.106Z",
+      "monotonicMs": 26842,
+      "client": "CHARLIE",
+      "incomingGeneration": 7,
+      "incomingSequence": 16,
+      "currentGeneration": 7,
+      "currentSequence": 17
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:22.106Z",
+      "monotonicMs": 26842,
+      "client": "CHARLIE",
+      "shotId": "d28a9ee0-c082-4aea-86ff-8de1f96a7341",
+      "shooterId": "witness-bravo",
+      "sequence": 17,
+      "shots": 17
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:22.115Z",
+      "monotonicMs": 26850,
+      "client": "DELTA",
+      "shotId": "c6af32dd-1da7-4d71-b866-fb3ddf7aea1e",
+      "shooterId": "witness-bravo",
+      "sequence": 17,
+      "shots": 17
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:22.153Z",
+      "monotonicMs": 26889,
+      "client": "CHARLIE",
+      "shotId": "7c035c0d-812b-4bde-a79c-7b6a5accd323",
+      "shooterId": "witness-bravo",
+      "sequence": 18,
+      "shots": 18
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:22.192Z",
+      "monotonicMs": 26928,
+      "client": "BRAVO",
+      "shotId": "7c035c0d-812b-4bde-a79c-7b6a5accd323",
+      "shooterId": "witness-bravo",
+      "sequence": 18,
+      "shots": 18
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:22.244Z",
+      "monotonicMs": 26980,
+      "client": "ALPHA",
+      "shotId": "7c035c0d-812b-4bde-a79c-7b6a5accd323",
+      "shooterId": "witness-bravo",
+      "sequence": 18,
+      "shots": 18
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:22.335Z",
+      "monotonicMs": 27070,
+      "client": "DELTA",
+      "shotId": "7c035c0d-812b-4bde-a79c-7b6a5accd323",
+      "shooterId": "witness-bravo",
+      "sequence": 18,
+      "shots": 18
+    },
+    {
+      "type": "volley_converged",
+      "wallTime": "2026-08-23T22:26:22.335Z",
+      "monotonicMs": 27071,
+      "client": "BRAVO",
+      "shots": 18,
+      "sequence": 18
+    },
+    {
+      "type": "volley_started",
+      "wallTime": "2026-08-23T22:26:26.335Z",
+      "monotonicMs": 31071,
+      "client": "CHARLIE"
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:26.335Z",
+      "monotonicMs": 31071,
+      "client": "CHARLIE",
+      "shotId": "98b0edd9-7c48-40fc-92a6-0d205e74c3fb",
+      "aimX": 0.1,
+      "aimY": 0.88,
+      "impact": {
+        "id": "98b0edd9-7c48-40fc-92a6-0d205e74c3fb",
+        "shooterId": "witness-charlie",
+        "band": "direct",
+        "x": 0.10542837777587429,
+        "y": 0.8720482801659106,
+        "error": 6.549911875234102,
+        "radius": 0.03306775606331589
+      }
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:26.556Z",
+      "monotonicMs": 31291,
+      "client": "CHARLIE",
+      "shotId": "6df1ae79-951e-410d-af51-e878e7f5c944",
+      "aimX": 0.2,
+      "aimY": 0.8,
+      "impact": {
+        "id": "6df1ae79-951e-410d-af51-e878e7f5c944",
+        "shooterId": "witness-charlie",
+        "band": "mild",
+        "x": 0.21367008012485808,
+        "y": 0.7400041043941443,
+        "error": 32.6879390834074,
+        "radius": 0.03345605472375661
+      }
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:26.776Z",
+      "monotonicMs": 31512,
+      "client": "CHARLIE",
+      "shotId": "adb3f130-6a6d-4bc0-8bc6-fd75fcf975e0",
+      "aimX": 0.32,
+      "aimY": 0.69,
+      "impact": {
+        "id": "adb3f130-6a6d-4bc0-8bc6-fd75fcf975e0",
+        "shooterId": "witness-charlie",
+        "band": "severe",
+        "x": 0.2429125324170064,
+        "y": 0.7616592662515721,
+        "error": 82.19014603030519,
+        "radius": 0.030242181067232612
+      }
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:26.997Z",
+      "monotonicMs": 31732,
+      "client": "CHARLIE",
+      "shotId": "868e76ce-1fbd-482c-ae45-edba9b3d19af",
+      "aimX": 0.41,
+      "aimY": 0.6,
+      "impact": {
+        "id": "868e76ce-1fbd-482c-ae45-edba9b3d19af",
+        "shooterId": "witness-charlie",
+        "band": "direct",
+        "x": 0.41322121439698056,
+        "y": 0.5982208709990973,
+        "error": 3.21727978846684,
+        "radius": 0.03184305451317986
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.156Z",
+      "monotonicMs": 31891,
+      "client": "ALPHA",
+      "shotId": "98b0edd9-7c48-40fc-92a6-0d205e74c3fb",
+      "shooterId": "witness-charlie",
+      "sequence": 19,
+      "shots": 19
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:27.217Z",
+      "monotonicMs": 31953,
+      "client": "CHARLIE",
+      "shotId": "829a1b79-776b-4156-a477-96c81ef20393",
+      "aimX": 0.47,
+      "aimY": 0.53,
+      "impact": {
+        "id": "829a1b79-776b-4156-a477-96c81ef20393",
+        "shooterId": "witness-charlie",
+        "band": "mild",
+        "x": 0.4508795789316101,
+        "y": 0.5476730562476353,
+        "error": 20.364194341826078,
+        "radius": 0.03028097465526271
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.273Z",
+      "monotonicMs": 32009,
+      "client": "BRAVO",
+      "shotId": "98b0edd9-7c48-40fc-92a6-0d205e74c3fb",
+      "shooterId": "witness-charlie",
+      "sequence": 19,
+      "shots": 19
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.382Z",
+      "monotonicMs": 32117,
+      "client": "DELTA",
+      "shotId": "98b0edd9-7c48-40fc-92a6-0d205e74c3fb",
+      "shooterId": "witness-charlie",
+      "sequence": 19,
+      "shots": 19
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.433Z",
+      "monotonicMs": 32169,
+      "client": "CHARLIE",
+      "shotId": "98b0edd9-7c48-40fc-92a6-0d205e74c3fb",
+      "shooterId": "witness-charlie",
+      "sequence": 19,
+      "shots": 19
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:27.438Z",
+      "monotonicMs": 32173,
+      "client": "CHARLIE",
+      "shotId": "2ee1a57a-9bff-49a2-979b-a2db44e54dde",
+      "aimX": 0.4,
+      "aimY": 0.62,
+      "impact": {
+        "id": "2ee1a57a-9bff-49a2-979b-a2db44e54dde",
+        "shooterId": "witness-charlie",
+        "band": "severe",
+        "x": 0.415042352510449,
+        "y": 0.5081937142691418,
+        "error": 57.62990415283002,
+        "radius": 0.03178926881718324
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.468Z",
+      "monotonicMs": 32204,
+      "client": "CHARLIE",
+      "shotId": "6df1ae79-951e-410d-af51-e878e7f5c944",
+      "shooterId": "witness-charlie",
+      "sequence": 20,
+      "shots": 20
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.478Z",
+      "monotonicMs": 32213,
+      "client": "ALPHA",
+      "shotId": "6df1ae79-951e-410d-af51-e878e7f5c944",
+      "shooterId": "witness-charlie",
+      "sequence": 20,
+      "shots": 20
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.530Z",
+      "monotonicMs": 32266,
+      "client": "BRAVO",
+      "shotId": "6df1ae79-951e-410d-af51-e878e7f5c944",
+      "shooterId": "witness-charlie",
+      "sequence": 20,
+      "shots": 20
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.568Z",
+      "monotonicMs": 32304,
+      "client": "ALPHA",
+      "shotId": "adb3f130-6a6d-4bc0-8bc6-fd75fcf975e0",
+      "shooterId": "witness-charlie",
+      "sequence": 21,
+      "shots": 21
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.575Z",
+      "monotonicMs": 32310,
+      "client": "DELTA",
+      "shotId": "adb3f130-6a6d-4bc0-8bc6-fd75fcf975e0",
+      "shooterId": "witness-charlie",
+      "sequence": 21,
+      "shots": 21
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:27.632Z",
+      "monotonicMs": 32368,
+      "client": "DELTA",
+      "incomingGeneration": 7,
+      "incomingSequence": 20,
+      "currentGeneration": 7,
+      "currentSequence": 21
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.632Z",
+      "monotonicMs": 32368,
+      "client": "DELTA",
+      "shotId": "6df1ae79-951e-410d-af51-e878e7f5c944",
+      "shooterId": "witness-charlie",
+      "sequence": 21,
+      "shots": 21
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.651Z",
+      "monotonicMs": 32387,
+      "client": "CHARLIE",
+      "shotId": "adb3f130-6a6d-4bc0-8bc6-fd75fcf975e0",
+      "shooterId": "witness-charlie",
+      "sequence": 21,
+      "shots": 21
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:27.658Z",
+      "monotonicMs": 32394,
+      "client": "CHARLIE",
+      "shotId": "7bdae445-a207-4523-8675-a09b084aace8",
+      "aimX": 0.3,
+      "aimY": 0.72,
+      "impact": {
+        "id": "7bdae445-a207-4523-8675-a09b084aace8",
+        "shooterId": "witness-charlie",
+        "band": "direct",
+        "x": 0.2959371553073327,
+        "y": 0.7227864387801797,
+        "error": 4.1407589836017,
+        "radius": 0.03226384941772923
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.813Z",
+      "monotonicMs": 32549,
+      "client": "BRAVO",
+      "shotId": "adb3f130-6a6d-4bc0-8bc6-fd75fcf975e0",
+      "shooterId": "witness-charlie",
+      "sequence": 21,
+      "shots": 21
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.844Z",
+      "monotonicMs": 32580,
+      "client": "ALPHA",
+      "shotId": "868e76ce-1fbd-482c-ae45-edba9b3d19af",
+      "shooterId": "witness-charlie",
+      "sequence": 22,
+      "shots": 22
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.850Z",
+      "monotonicMs": 32586,
+      "client": "DELTA",
+      "shotId": "2ee1a57a-9bff-49a2-979b-a2db44e54dde",
+      "shooterId": "witness-charlie",
+      "sequence": 24,
+      "shots": 24
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:27.879Z",
+      "monotonicMs": 32615,
+      "client": "CHARLIE",
+      "shotId": "8391cb26-1775-4a67-baed-398dab0e6617",
+      "aimX": 0.19,
+      "aimY": 0.82,
+      "impact": {
+        "id": "8391cb26-1775-4a67-baed-398dab0e6617",
+        "shooterId": "witness-charlie",
+        "band": "mild",
+        "x": 0.2250073217242145,
+        "y": 0.8083861538806546,
+        "error": 34.10304967826232,
+        "radius": 0.027231069400307957
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.961Z",
+      "monotonicMs": 32697,
+      "client": "CHARLIE",
+      "shotId": "868e76ce-1fbd-482c-ae45-edba9b3d19af",
+      "shooterId": "witness-charlie",
+      "sequence": 22,
+      "shots": 22
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:27.967Z",
+      "monotonicMs": 32703,
+      "client": "DELTA",
+      "incomingGeneration": 7,
+      "incomingSequence": 22,
+      "currentGeneration": 7,
+      "currentSequence": 24
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:27.967Z",
+      "monotonicMs": 32703,
+      "client": "DELTA",
+      "shotId": "868e76ce-1fbd-482c-ae45-edba9b3d19af",
+      "shooterId": "witness-charlie",
+      "sequence": 24,
+      "shots": 24
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.003Z",
+      "monotonicMs": 32739,
+      "client": "CHARLIE",
+      "shotId": "2ee1a57a-9bff-49a2-979b-a2db44e54dde",
+      "shooterId": "witness-charlie",
+      "sequence": 24,
+      "shots": 24
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.023Z",
+      "monotonicMs": 32758,
+      "client": "BRAVO",
+      "shotId": "2ee1a57a-9bff-49a2-979b-a2db44e54dde",
+      "shooterId": "witness-charlie",
+      "sequence": 24,
+      "shots": 24
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.080Z",
+      "monotonicMs": 32816,
+      "client": "DELTA",
+      "shotId": "7bdae445-a207-4523-8675-a09b084aace8",
+      "shooterId": "witness-charlie",
+      "sequence": 25,
+      "shots": 25
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:28.099Z",
+      "monotonicMs": 32835,
+      "client": "CHARLIE",
+      "shotId": "3499826a-dd60-46ff-a711-c544f23ec9a4",
+      "aimX": 0.08,
+      "aimY": 0.9,
+      "impact": {
+        "id": "3499826a-dd60-46ff-a711-c544f23ec9a4",
+        "shooterId": "witness-charlie",
+        "band": "severe",
+        "x": 0.0347046134760847,
+        "y": 0.9570407971467115,
+        "error": 51.97098891000496,
+        "radius": 0.02579345824096617
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.101Z",
+      "monotonicMs": 32836,
+      "client": "ALPHA",
+      "shotId": "2ee1a57a-9bff-49a2-979b-a2db44e54dde",
+      "shooterId": "witness-charlie",
+      "sequence": 24,
+      "shots": 24
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:28.142Z",
+      "monotonicMs": 32877,
+      "client": "BRAVO",
+      "incomingGeneration": 7,
+      "incomingSequence": 22,
+      "currentGeneration": 7,
+      "currentSequence": 24
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.142Z",
+      "monotonicMs": 32877,
+      "client": "BRAVO",
+      "shotId": "868e76ce-1fbd-482c-ae45-edba9b3d19af",
+      "shooterId": "witness-charlie",
+      "sequence": 24,
+      "shots": 24
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:28.252Z",
+      "monotonicMs": 32988,
+      "client": "BRAVO",
+      "incomingGeneration": 7,
+      "incomingSequence": 23,
+      "currentGeneration": 7,
+      "currentSequence": 24
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.252Z",
+      "monotonicMs": 32988,
+      "client": "BRAVO",
+      "shotId": "829a1b79-776b-4156-a477-96c81ef20393",
+      "shooterId": "witness-charlie",
+      "sequence": 24,
+      "shots": 24
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.253Z",
+      "monotonicMs": 32989,
+      "client": "CHARLIE",
+      "shotId": "7bdae445-a207-4523-8675-a09b084aace8",
+      "shooterId": "witness-charlie",
+      "sequence": 25,
+      "shots": 25
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.273Z",
+      "monotonicMs": 33009,
+      "client": "BRAVO",
+      "shotId": "7bdae445-a207-4523-8675-a09b084aace8",
+      "shooterId": "witness-charlie",
+      "sequence": 25,
+      "shots": 25
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:28.361Z",
+      "monotonicMs": 33097,
+      "client": "DELTA",
+      "incomingGeneration": 7,
+      "incomingSequence": 23,
+      "currentGeneration": 7,
+      "currentSequence": 25
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.361Z",
+      "monotonicMs": 33097,
+      "client": "DELTA",
+      "shotId": "829a1b79-776b-4156-a477-96c81ef20393",
+      "shooterId": "witness-charlie",
+      "sequence": 25,
+      "shots": 25
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:28.412Z",
+      "monotonicMs": 33148,
+      "client": "ALPHA",
+      "incomingGeneration": 7,
+      "incomingSequence": 23,
+      "currentGeneration": 7,
+      "currentSequence": 24
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.412Z",
+      "monotonicMs": 33148,
+      "client": "ALPHA",
+      "shotId": "829a1b79-776b-4156-a477-96c81ef20393",
+      "shooterId": "witness-charlie",
+      "sequence": 24,
+      "shots": 24
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:28.454Z",
+      "monotonicMs": 33190,
+      "client": "CHARLIE",
+      "incomingGeneration": 7,
+      "incomingSequence": 23,
+      "currentGeneration": 7,
+      "currentSequence": 25
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.454Z",
+      "monotonicMs": 33190,
+      "client": "CHARLIE",
+      "shotId": "829a1b79-776b-4156-a477-96c81ef20393",
+      "shooterId": "witness-charlie",
+      "sequence": 25,
+      "shots": 25
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.653Z",
+      "monotonicMs": 33389,
+      "client": "ALPHA",
+      "shotId": "7bdae445-a207-4523-8675-a09b084aace8",
+      "shooterId": "witness-charlie",
+      "sequence": 25,
+      "shots": 25
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.828Z",
+      "monotonicMs": 33563,
+      "client": "CHARLIE",
+      "shotId": "8391cb26-1775-4a67-baed-398dab0e6617",
+      "shooterId": "witness-charlie",
+      "sequence": 26,
+      "shots": 26
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.828Z",
+      "monotonicMs": 33564,
+      "client": "ALPHA",
+      "shotId": "8391cb26-1775-4a67-baed-398dab0e6617",
+      "shooterId": "witness-charlie",
+      "sequence": 26,
+      "shots": 26
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.888Z",
+      "monotonicMs": 33624,
+      "client": "ALPHA",
+      "shotId": "3499826a-dd60-46ff-a711-c544f23ec9a4",
+      "shooterId": "witness-charlie",
+      "sequence": 27,
+      "shots": 27
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.894Z",
+      "monotonicMs": 33630,
+      "client": "BRAVO",
+      "shotId": "3499826a-dd60-46ff-a711-c544f23ec9a4",
+      "shooterId": "witness-charlie",
+      "sequence": 27,
+      "shots": 27
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.915Z",
+      "monotonicMs": 33650,
+      "client": "DELTA",
+      "shotId": "8391cb26-1775-4a67-baed-398dab0e6617",
+      "shooterId": "witness-charlie",
+      "sequence": 26,
+      "shots": 26
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:28.989Z",
+      "monotonicMs": 33724,
+      "client": "BRAVO",
+      "incomingGeneration": 7,
+      "incomingSequence": 26,
+      "currentGeneration": 7,
+      "currentSequence": 27
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:28.989Z",
+      "monotonicMs": 33724,
+      "client": "BRAVO",
+      "shotId": "8391cb26-1775-4a67-baed-398dab0e6617",
+      "shooterId": "witness-charlie",
+      "sequence": 27,
+      "shots": 27
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:29.093Z",
+      "monotonicMs": 33829,
+      "client": "DELTA",
+      "shotId": "3499826a-dd60-46ff-a711-c544f23ec9a4",
+      "shooterId": "witness-charlie",
+      "sequence": 27,
+      "shots": 27
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:29.287Z",
+      "monotonicMs": 34023,
+      "client": "CHARLIE",
+      "shotId": "3499826a-dd60-46ff-a711-c544f23ec9a4",
+      "shooterId": "witness-charlie",
+      "sequence": 27,
+      "shots": 27
+    },
+    {
+      "type": "volley_converged",
+      "wallTime": "2026-08-23T22:26:29.297Z",
+      "monotonicMs": 34033,
+      "client": "CHARLIE",
+      "shots": 27,
+      "sequence": 27
+    },
+    {
+      "type": "volley_started",
+      "wallTime": "2026-08-23T22:26:33.298Z",
+      "monotonicMs": 38034,
+      "client": "DELTA"
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:33.298Z",
+      "monotonicMs": 38034,
+      "client": "DELTA",
+      "shotId": "fb003d64-24d8-443e-b199-035652bf1f07",
+      "aimX": 0.9,
+      "aimY": 0.88,
+      "impact": {
+        "id": "fb003d64-24d8-443e-b199-035652bf1f07",
+        "shooterId": "witness-delta",
+        "band": "direct",
+        "x": 0.892494980917689,
+        "y": 0.8754141786278712,
+        "error": 7.559486602702236,
+        "radius": 0.03350179653416982
+      }
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:33.518Z",
+      "monotonicMs": 38254,
+      "client": "DELTA",
+      "shotId": "d900044b-600a-470b-ac20-646469cb2e69",
+      "aimX": 0.8,
+      "aimY": 0.8,
+      "impact": {
+        "id": "d900044b-600a-470b-ac20-646469cb2e69",
+        "shooterId": "witness-delta",
+        "band": "mild",
+        "x": 0.7615924900458849,
+        "y": 0.7714990962246822,
+        "error": 39.51898257681751,
+        "radius": 0.03397636238533634
+      }
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:33.739Z",
+      "monotonicMs": 38475,
+      "client": "DELTA",
+      "shotId": "d317b1c1-1e61-471b-adeb-a48f13bc1f72",
+      "aimX": 0.68,
+      "aimY": 0.69,
+      "impact": {
+        "id": "d317b1c1-1e61-471b-adeb-a48f13bc1f72",
+        "shooterId": "witness-delta",
+        "band": "severe",
+        "x": 0.6860535961517348,
+        "y": 0.868789447960091,
+        "error": 89.40501077867157,
+        "radius": 0.030579182780542568
+      }
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:33.959Z",
+      "monotonicMs": 38695,
+      "client": "DELTA",
+      "shotId": "c860a877-005d-4a6b-be1b-095b64a9a343",
+      "aimX": 0.59,
+      "aimY": 0.6,
+      "impact": {
+        "id": "c860a877-005d-4a6b-be1b-095b64a9a343",
+        "shooterId": "witness-delta",
+        "band": "direct",
+        "x": 0.5850395924226638,
+        "y": 0.6066998955015085,
+        "error": 5.818407610129725,
+        "radius": 0.03339177925130742
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.088Z",
+      "monotonicMs": 38824,
+      "client": "ALPHA",
+      "shotId": "d900044b-600a-470b-ac20-646469cb2e69",
+      "shooterId": "witness-delta",
+      "sequence": 29,
+      "shots": 29
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:34.180Z",
+      "monotonicMs": 38915,
+      "client": "DELTA",
+      "shotId": "b877f22b-9a9e-4fc1-af53-34efcaac5521",
+      "aimX": 0.53,
+      "aimY": 0.53,
+      "impact": {
+        "id": "b877f22b-9a9e-4fc1-af53-34efcaac5521",
+        "shooterId": "witness-delta",
+        "band": "mild",
+        "x": 0.5496188280163945,
+        "y": 0.5244851995334054,
+        "error": 19.034055022872053,
+        "radius": 0.029932750362216345
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.288Z",
+      "monotonicMs": 39024,
+      "client": "CHARLIE",
+      "shotId": "d900044b-600a-470b-ac20-646469cb2e69",
+      "shooterId": "witness-delta",
+      "sequence": 29,
+      "shots": 29
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.313Z",
+      "monotonicMs": 39049,
+      "client": "CHARLIE",
+      "shotId": "d317b1c1-1e61-471b-adeb-a48f13bc1f72",
+      "shooterId": "witness-delta",
+      "sequence": 30,
+      "shots": 30
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:34.400Z",
+      "monotonicMs": 39136,
+      "client": "DELTA",
+      "shotId": "fe9c5300-7565-4082-82fa-7d9658d94aa6",
+      "aimX": 0.6,
+      "aimY": 0.62,
+      "impact": {
+        "id": "fe9c5300-7565-4082-82fa-7d9658d94aa6",
+        "shooterId": "witness-delta",
+        "band": "severe",
+        "x": 0.658828004383499,
+        "y": 0.6201244312109311,
+        "error": 56.474918341144075,
+        "radius": 0.030801964909776228
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.535Z",
+      "monotonicMs": 39271,
+      "client": "DELTA",
+      "shotId": "d900044b-600a-470b-ac20-646469cb2e69",
+      "shooterId": "witness-delta",
+      "sequence": 29,
+      "shots": 29
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.536Z",
+      "monotonicMs": 39272,
+      "client": "BRAVO",
+      "shotId": "d317b1c1-1e61-471b-adeb-a48f13bc1f72",
+      "shooterId": "witness-delta",
+      "sequence": 30,
+      "shots": 30
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:34.550Z",
+      "monotonicMs": 39285,
+      "client": "BRAVO",
+      "incomingGeneration": 7,
+      "incomingSequence": 29,
+      "currentGeneration": 7,
+      "currentSequence": 30
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.550Z",
+      "monotonicMs": 39285,
+      "client": "BRAVO",
+      "shotId": "d900044b-600a-470b-ac20-646469cb2e69",
+      "shooterId": "witness-delta",
+      "sequence": 30,
+      "shots": 30
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.565Z",
+      "monotonicMs": 39301,
+      "client": "CHARLIE",
+      "shotId": "b877f22b-9a9e-4fc1-af53-34efcaac5521",
+      "shooterId": "witness-delta",
+      "sequence": 32,
+      "shots": 32
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.573Z",
+      "monotonicMs": 39308,
+      "client": "ALPHA",
+      "shotId": "c860a877-005d-4a6b-be1b-095b64a9a343",
+      "shooterId": "witness-delta",
+      "sequence": 31,
+      "shots": 31
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:34.595Z",
+      "monotonicMs": 39330,
+      "client": "DELTA",
+      "incomingGeneration": 7,
+      "incomingSequence": 28,
+      "currentGeneration": 7,
+      "currentSequence": 29
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.595Z",
+      "monotonicMs": 39330,
+      "client": "DELTA",
+      "shotId": "fb003d64-24d8-443e-b199-035652bf1f07",
+      "shooterId": "witness-delta",
+      "sequence": 29,
+      "shots": 29
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:34.620Z",
+      "monotonicMs": 39356,
+      "client": "DELTA",
+      "shotId": "526f5c99-8b33-47db-8c9f-673203581460",
+      "aimX": 0.7,
+      "aimY": 0.72,
+      "impact": {
+        "id": "526f5c99-8b33-47db-8c9f-673203581460",
+        "shooterId": "witness-delta",
+        "band": "direct",
+        "x": 0.7032594307343664,
+        "y": 0.7100927164417723,
+        "error": 5.850768035023066,
+        "radius": 0.03047090756876559
+      }
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:34.625Z",
+      "monotonicMs": 39361,
+      "client": "BRAVO",
+      "incomingGeneration": 7,
+      "incomingSequence": 28,
+      "currentGeneration": 7,
+      "currentSequence": 30
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.625Z",
+      "monotonicMs": 39361,
+      "client": "BRAVO",
+      "shotId": "fb003d64-24d8-443e-b199-035652bf1f07",
+      "shooterId": "witness-delta",
+      "sequence": 30,
+      "shots": 30
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:34.627Z",
+      "monotonicMs": 39363,
+      "client": "CHARLIE",
+      "incomingGeneration": 7,
+      "incomingSequence": 28,
+      "currentGeneration": 7,
+      "currentSequence": 32
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.627Z",
+      "monotonicMs": 39363,
+      "client": "CHARLIE",
+      "shotId": "fb003d64-24d8-443e-b199-035652bf1f07",
+      "shooterId": "witness-delta",
+      "sequence": 32,
+      "shots": 32
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:34.629Z",
+      "monotonicMs": 39364,
+      "client": "ALPHA",
+      "incomingGeneration": 7,
+      "incomingSequence": 28,
+      "currentGeneration": 7,
+      "currentSequence": 31
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.629Z",
+      "monotonicMs": 39364,
+      "client": "ALPHA",
+      "shotId": "fb003d64-24d8-443e-b199-035652bf1f07",
+      "shooterId": "witness-delta",
+      "sequence": 31,
+      "shots": 31
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.709Z",
+      "monotonicMs": 39445,
+      "client": "DELTA",
+      "shotId": "b877f22b-9a9e-4fc1-af53-34efcaac5521",
+      "shooterId": "witness-delta",
+      "sequence": 32,
+      "shots": 32
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:34.714Z",
+      "monotonicMs": 39449,
+      "client": "ALPHA",
+      "incomingGeneration": 7,
+      "incomingSequence": 30,
+      "currentGeneration": 7,
+      "currentSequence": 31
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.714Z",
+      "monotonicMs": 39449,
+      "client": "ALPHA",
+      "shotId": "d317b1c1-1e61-471b-adeb-a48f13bc1f72",
+      "shooterId": "witness-delta",
+      "sequence": 31,
+      "shots": 31
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.742Z",
+      "monotonicMs": 39477,
+      "client": "ALPHA",
+      "shotId": "b877f22b-9a9e-4fc1-af53-34efcaac5521",
+      "shooterId": "witness-delta",
+      "sequence": 32,
+      "shots": 32
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:34.841Z",
+      "monotonicMs": 39577,
+      "client": "DELTA",
+      "incomingGeneration": 7,
+      "incomingSequence": 30,
+      "currentGeneration": 7,
+      "currentSequence": 32
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.841Z",
+      "monotonicMs": 39577,
+      "client": "DELTA",
+      "shotId": "d317b1c1-1e61-471b-adeb-a48f13bc1f72",
+      "shooterId": "witness-delta",
+      "sequence": 32,
+      "shots": 32
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:34.842Z",
+      "monotonicMs": 39578,
+      "client": "DELTA",
+      "shotId": "10e90ee2-595b-4b70-9ec3-a21ec87e9c43",
+      "aimX": 0.81,
+      "aimY": 0.82,
+      "impact": {
+        "id": "10e90ee2-595b-4b70-9ec3-a21ec87e9c43",
+        "shooterId": "witness-delta",
+        "band": "mild",
+        "x": 0.7854007151073769,
+        "y": 0.7593769505259487,
+        "error": 38.37707759154728,
+        "radius": 0.026364809383327276
+      }
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:34.893Z",
+      "monotonicMs": 39629,
+      "client": "CHARLIE",
+      "incomingGeneration": 7,
+      "incomingSequence": 31,
+      "currentGeneration": 7,
+      "currentSequence": 32
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.893Z",
+      "monotonicMs": 39629,
+      "client": "CHARLIE",
+      "shotId": "c860a877-005d-4a6b-be1b-095b64a9a343",
+      "shooterId": "witness-delta",
+      "sequence": 32,
+      "shots": 32
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.914Z",
+      "monotonicMs": 39650,
+      "client": "DELTA",
+      "shotId": "fe9c5300-7565-4082-82fa-7d9658d94aa6",
+      "shooterId": "witness-delta",
+      "sequence": 33,
+      "shots": 33
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.934Z",
+      "monotonicMs": 39670,
+      "client": "BRAVO",
+      "shotId": "c860a877-005d-4a6b-be1b-095b64a9a343",
+      "shooterId": "witness-delta",
+      "sequence": 31,
+      "shots": 31
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:34.962Z",
+      "monotonicMs": 39698,
+      "client": "DELTA",
+      "incomingGeneration": 7,
+      "incomingSequence": 31,
+      "currentGeneration": 7,
+      "currentSequence": 33
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:34.962Z",
+      "monotonicMs": 39698,
+      "client": "DELTA",
+      "shotId": "c860a877-005d-4a6b-be1b-095b64a9a343",
+      "shooterId": "witness-delta",
+      "sequence": 33,
+      "shots": 33
+    },
+    {
+      "type": "shot_local",
+      "wallTime": "2026-08-23T22:26:35.063Z",
+      "monotonicMs": 39798,
+      "client": "DELTA",
+      "shotId": "89d2e474-215d-4bfa-8c8c-38faa4429ef1",
+      "aimX": 0.92,
+      "aimY": 0.9,
+      "impact": {
+        "id": "89d2e474-215d-4bfa-8c8c-38faa4429ef1",
+        "shooterId": "witness-delta",
+        "band": "severe",
+        "x": 0.9113227319378582,
+        "y": 0.7018254062849916,
+        "error": 99.23935890871508,
+        "radius": 0.031842711386309314
+      }
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:35.081Z",
+      "monotonicMs": 39817,
+      "client": "BRAVO",
+      "shotId": "fe9c5300-7565-4082-82fa-7d9658d94aa6",
+      "shooterId": "witness-delta",
+      "sequence": 33,
+      "shots": 33
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:35.099Z",
+      "monotonicMs": 39834,
+      "client": "CHARLIE",
+      "shotId": "fe9c5300-7565-4082-82fa-7d9658d94aa6",
+      "shooterId": "witness-delta",
+      "sequence": 33,
+      "shots": 33
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:35.123Z",
+      "monotonicMs": 39859,
+      "client": "BRAVO",
+      "incomingGeneration": 7,
+      "incomingSequence": 32,
+      "currentGeneration": 7,
+      "currentSequence": 33
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:35.123Z",
+      "monotonicMs": 39859,
+      "client": "BRAVO",
+      "shotId": "b877f22b-9a9e-4fc1-af53-34efcaac5521",
+      "shooterId": "witness-delta",
+      "sequence": 33,
+      "shots": 33
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:35.289Z",
+      "monotonicMs": 40025,
+      "client": "BRAVO",
+      "shotId": "526f5c99-8b33-47db-8c9f-673203581460",
+      "shooterId": "witness-delta",
+      "sequence": 34,
+      "shots": 34
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:35.440Z",
+      "monotonicMs": 40176,
+      "client": "ALPHA",
+      "shotId": "fe9c5300-7565-4082-82fa-7d9658d94aa6",
+      "shooterId": "witness-delta",
+      "sequence": 33,
+      "shots": 33
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:35.594Z",
+      "monotonicMs": 40330,
+      "client": "ALPHA",
+      "shotId": "526f5c99-8b33-47db-8c9f-673203581460",
+      "shooterId": "witness-delta",
+      "sequence": 34,
+      "shots": 34
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:35.634Z",
+      "monotonicMs": 40370,
+      "client": "CHARLIE",
+      "shotId": "526f5c99-8b33-47db-8c9f-673203581460",
+      "shooterId": "witness-delta",
+      "sequence": 34,
+      "shots": 34
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:35.716Z",
+      "monotonicMs": 40452,
+      "client": "DELTA",
+      "shotId": "526f5c99-8b33-47db-8c9f-673203581460",
+      "shooterId": "witness-delta",
+      "sequence": 34,
+      "shots": 34
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:35.750Z",
+      "monotonicMs": 40485,
+      "client": "BRAVO",
+      "shotId": "10e90ee2-595b-4b70-9ec3-a21ec87e9c43",
+      "shooterId": "witness-delta",
+      "sequence": 35,
+      "shots": 35
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:35.894Z",
+      "monotonicMs": 40630,
+      "client": "BRAVO",
+      "shotId": "89d2e474-215d-4bfa-8c8c-38faa4429ef1",
+      "shooterId": "witness-delta",
+      "sequence": 36,
+      "shots": 36
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:36.033Z",
+      "monotonicMs": 40769,
+      "client": "ALPHA",
+      "shotId": "89d2e474-215d-4bfa-8c8c-38faa4429ef1",
+      "shooterId": "witness-delta",
+      "sequence": 36,
+      "shots": 36
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:36.051Z",
+      "monotonicMs": 40787,
+      "client": "CHARLIE",
+      "shotId": "89d2e474-215d-4bfa-8c8c-38faa4429ef1",
+      "shooterId": "witness-delta",
+      "sequence": 36,
+      "shots": 36
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:36.061Z",
+      "monotonicMs": 40797,
+      "client": "DELTA",
+      "shotId": "10e90ee2-595b-4b70-9ec3-a21ec87e9c43",
+      "shooterId": "witness-delta",
+      "sequence": 35,
+      "shots": 35
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:36.090Z",
+      "monotonicMs": 40826,
+      "client": "ALPHA",
+      "incomingGeneration": 7,
+      "incomingSequence": 35,
+      "currentGeneration": 7,
+      "currentSequence": 36
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:36.090Z",
+      "monotonicMs": 40826,
+      "client": "ALPHA",
+      "shotId": "10e90ee2-595b-4b70-9ec3-a21ec87e9c43",
+      "shooterId": "witness-delta",
+      "sequence": 36,
+      "shots": 36
+    },
+    {
+      "type": "stale_state_ignored",
+      "wallTime": "2026-08-23T22:26:36.127Z",
+      "monotonicMs": 40863,
+      "client": "CHARLIE",
+      "incomingGeneration": 7,
+      "incomingSequence": 35,
+      "currentGeneration": 7,
+      "currentSequence": 36
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:36.127Z",
+      "monotonicMs": 40863,
+      "client": "CHARLIE",
+      "shotId": "10e90ee2-595b-4b70-9ec3-a21ec87e9c43",
+      "shooterId": "witness-delta",
+      "sequence": 36,
+      "shots": 36
+    },
+    {
+      "type": "impact_received",
+      "wallTime": "2026-08-23T22:26:36.337Z",
+      "monotonicMs": 41073,
+      "client": "DELTA",
+      "shotId": "89d2e474-215d-4bfa-8c8c-38faa4429ef1",
+      "shooterId": "witness-delta",
+      "sequence": 36,
+      "shots": 36
+    },
+    {
+      "type": "volley_converged",
+      "wallTime": "2026-08-23T22:26:36.345Z",
+      "monotonicMs": 41081,
+      "client": "DELTA",
+      "shots": 36,
+      "sequence": 36
+    },
+    {
+      "type": "final_convergence",
+      "wallTime": "2026-08-23T22:26:36.345Z",
+      "monotonicMs": 41081,
+      "counts": [
+        36,
+        36,
+        36,
+        36
+      ],
+      "sequences": [
+        36,
+        36,
+        36,
+        36
+      ]
+    },
+    {
+      "type": "recording_stopped",
+      "wallTime": "2026-08-23T22:26:38.850Z",
+      "monotonicMs": 43586,
+      "videoBytes": 401549
+    }
+  ]
+}
