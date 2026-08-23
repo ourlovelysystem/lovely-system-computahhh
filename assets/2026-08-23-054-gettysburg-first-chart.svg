@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="620" viewBox="0 0 1100 620" role="img" aria-labelledby="title desc">
+  <title id="title">Rejected first chart of the Gettysburg Address</title>
+  <desc id="desc">Signal strength and information density plotted separately against slice number. This preserves the scores but does not plot the Fibrillator quadrants.</desc>
+  <rect width="1100" height="620" fill="#f4f1ea"/>
+  <text x="70" y="46" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#171717">REJECTED FIRST GRAPH</text>
+  <text x="70" y="76" font-family="Arial, sans-serif" font-size="16" fill="#555">Two scores against slice number — numerically legible, geometrically wrong</text>
+  <rect x="78" y="105" width="942" height="420" fill="#fff" stroke="#202020" stroke-width="2"/>
+  <g stroke="#d2d2d2" stroke-width="1">
+    <line x1="78" y1="525" x2="1020" y2="525"/><line x1="78" y1="441" x2="1020" y2="441"/>
+    <line x1="78" y1="357" x2="1020" y2="357"/><line x1="78" y1="273" x2="1020" y2="273"/>
+    <line x1="78" y1="189" x2="1020" y2="189"/><line x1="78" y1="105" x2="1020" y2="105"/>
+  </g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#444">
+    <text x="58" y="530">0</text><text x="58" y="446">2</text><text x="58" y="362">4</text>
+    <text x="58" y="278">6</text><text x="58" y="194">8</text><text x="50" y="110">10</text>
+    <text x="548" y="595" text-anchor="middle">Sequential slice</text>
+    <text x="20" y="315" text-anchor="middle" transform="rotate(-90 20 315)">Score</text>
+  </g>
+  <polyline points="78,315 127.6,231 177.2,147 226.7,189 276.3,147 325.9,315 375.5,315 425.1,147 474.6,315 524.2,105 573.8,147 623.4,189 672.9,231 722.5,105 772.1,189 821.7,189 871.3,147 920.8,105 970.4,105 1020,105" fill="none" stroke="#b3261e" stroke-width="4"/>
+  <polyline points="78,189 127.6,273 177.2,231 226.7,189 276.3,189 325.9,147 375.5,189 425.1,189 474.6,315 524.2,273 573.8,231 623.4,357 672.9,315 722.5,315 772.1,231 821.7,273 871.3,231 920.8,231 970.4,147 1020,189" fill="none" stroke="#2457a7" stroke-width="4"/>
+  <g fill="#b3261e"><circle cx="78" cy="315" r="5"/><circle cx="127.6" cy="231" r="5"/><circle cx="177.2" cy="147" r="5"/><circle cx="226.7" cy="189" r="5"/><circle cx="276.3" cy="147" r="5"/><circle cx="325.9" cy="315" r="5"/><circle cx="375.5" cy="315" r="5"/><circle cx="425.1" cy="147" r="5"/><circle cx="474.6" cy="315" r="5"/><circle cx="524.2" cy="105" r="5"/><circle cx="573.8" cy="147" r="5"/><circle cx="623.4" cy="189" r="5"/><circle cx="672.9" cy="231" r="5"/><circle cx="722.5" cy="105" r="5"/><circle cx="772.1" cy="189" r="5"/><circle cx="821.7" cy="189" r="5"/><circle cx="871.3" cy="147" r="5"/><circle cx="920.8" cy="105" r="5"/><circle cx="970.4" cy="105" r="5"/><circle cx="1020" cy="105" r="5"/></g>
+  <g fill="#2457a7"><circle cx="78" cy="189" r="5"/><circle cx="127.6" cy="273" r="5"/><circle cx="177.2" cy="231" r="5"/><circle cx="226.7" cy="189" r="5"/><circle cx="276.3" cy="189" r="5"/><circle cx="325.9" cy="147" r="5"/><circle cx="375.5" cy="189" r="5"/><circle cx="425.1" cy="189" r="5"/><circle cx="474.6" cy="315" r="5"/><circle cx="524.2" cy="273" r="5"/><circle cx="573.8" cy="231" r="5"/><circle cx="623.4" cy="357" r="5"/><circle cx="672.9" cy="315" r="5"/><circle cx="722.5" cy="315" r="5"/><circle cx="772.1" cy="231" r="5"/><circle cx="821.7" cy="273" r="5"/><circle cx="871.3" cy="231" r="5"/><circle cx="920.8" cy="231" r="5"/><circle cx="970.4" cy="147" r="5"/><circle cx="1020" cy="189" r="5"/></g>
+  <g font-family="Arial, sans-serif" font-size="13" fill="#333">
+    <text x="90" y="558">1</text><text x="188" y="558">3</text><text x="287" y="558">5</text><text x="386" y="558">7</text>
+    <text x="485" y="558">9</text><text x="574" y="558">11</text><text x="674" y="558">13</text><text x="773" y="558">15</text>
+    <text x="872" y="558">17</text><text x="971" y="558">19</text><text x="1014" y="558">20</text>
+  </g>
+  <line x1="720" y1="55" x2="765" y2="55" stroke="#b3261e" stroke-width="4"/><text x="776" y="61" font-family="Arial, sans-serif" font-size="15" fill="#222">Signal</text>
+  <line x1="860" y1="55" x2="905" y2="55" stroke="#2457a7" stroke-width="4"/><text x="916" y="61" font-family="Arial, sans-serif" font-size="15" fill="#222">Information</text>
+  <text x="550" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#8b1b16">FAILURE: THE TWO DIMENSIONS NEVER BECOME COORDINATES</text>
+</svg>
