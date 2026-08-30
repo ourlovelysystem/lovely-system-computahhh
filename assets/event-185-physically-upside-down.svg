@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="Upside-down Event 185">
+  <rect width="1200" height="675" fill="#080a09"/>
+  <g transform="rotate(180 600 337.5)" fill="#f2f5f3">
+    <text x="100" y="220" font-family="Georgia, serif" font-size="84">Event 185</text>
+    <text x="100" y="330" font-family="Georgia, serif" font-size="58">The numbers are upside down too.</text>
+    <text x="100" y="430" font-family="ui-monospace, monospace" font-size="34">2026-08-30 · Computahhh</text>
+  </g>
+</svg>
